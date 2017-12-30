@@ -1,3 +1,33 @@
+# Feed Reader Project
+
+Using Jasmine, we perform a number of tests to evaluate business logic of a pre-existing application.
+
+## How-to-run
+
+After downloading the whole project package, unzip the file and open index.html in your facorite browser.
+
+
+## Tests implemented
+
+* RSS Feeds
+
+    * have URL: loops through each feed and ensures it has a URL defined and that the URL is not empty.
+    * have name: loops through each feed and ensures it has a defined name and it is not empty.
+
+* The menu
+
+    * is hidden by default.
+    * toggles depending on clicking on the hamburger button.
+
+* Initial Entries
+
+    * have at least one .entry element within .feed container.
+
+* New Feed Selection
+
+    * changes the contents when new feed is loaded. It ensures that, upon calling loadFeed function, a new feed is loaded and the content actually changes.
+
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
@@ -44,5 +74,5 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 17. No test should be dependent on the results of another.
 18. Callbacks should be used to ensure that feeds are loaded before they are tested.
 19. Implement error handling for undefined variables and out-of-bound array access.
-20. When complete - all of your tests should pass. 
+20. When complete - all of your tests should pass.
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
