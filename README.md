@@ -4,7 +4,7 @@ Using Jasmine, we perform a number of tests to evaluate business logic of a pre-
 
 ## How-to-run
 
-After downloading the whole project package, unzip the file and open index.html in your facorite browser.
+After downloading the whole project package, unzip the file and open index.html in your favorite browser.
 
 
 ## Tests implemented
