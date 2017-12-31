@@ -86,7 +86,8 @@
         });
 
          it('are loaded', function() {
-            var entry = document.getElementsByClassName('entry');
+            var entry = $('.feed').find('.entry');
+            console.log(entry);
             var entryNum = entry.length;
             expect(entryNum).toBeGreaterThan(0);
         });
